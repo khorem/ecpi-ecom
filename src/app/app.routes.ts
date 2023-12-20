@@ -3,7 +3,7 @@ import {LandingPageComponent} from "./pages/landing-page/landing-page.component"
 import {UsersPageComponent} from "./pages/users-page/users-page.component";
 import {ProductsPageComponent} from "./pages/products-page/products-page.component";
 import {PageNotFoundComponent} from "./pages/page-not-found/page-not-found.component";
-import {CategoriesComponent} from "./pages/components/categories/categories.component";
+import {CategoriesComponent} from "./pages/categories/categories.component";
 
 export const routes: Routes = [
   { path: 'home', component: LandingPageComponent },
