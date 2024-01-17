@@ -1,0 +1,11 @@
+<div *ngIf="cart">
+    <h3>Cart ID: {{ cart.id }}</h3>
+    <p>User ID: {{ cart.userId }}</p>
+    <p>Date: {{ cart.date | date }}</p>
+    <ul>
+      <li *ngFor="let product of cart.products">
+        Product ID: {{ product.productId }} - Quantity: {{ product.quantity }}
+      </li>
+    </ul>
+  </div>
+  
